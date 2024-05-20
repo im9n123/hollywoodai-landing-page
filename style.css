@@ -9,10 +9,12 @@
 
 button {
   cursor: pointer;
+  outline: none;
 }
 
 a {
   text-decoration: none;
+  outline: none;
 }
 
 .container {
@@ -41,7 +43,7 @@ nav {
 }
 
 .nav__logo {
-  height: 100%;
+  height: 40px;
 }
 
 .nav__links {
@@ -56,6 +58,7 @@ nav {
   font-weight: 600;
   border-radius: 8px;
   transition: 300ms;
+  cursor: not-allowed;
 }
 
 .nav__link:hover {
@@ -289,7 +292,7 @@ header {
 }
 
 .feature__icon {
-  font-size: 16px;
+  width: 16px;
 }
 
 .feature__text__title {
@@ -494,7 +497,7 @@ header {
 .testimonials__title {
   font-size: 52px;
   margin-bottom: 40px;
-  text-align: center
+  text-align: center;
 }
 
 .testimonials__widget {
@@ -672,6 +675,9 @@ footer {
 .links__link {
   color: white;
   font-size: 14px;
+  display: flex;
+  align-items: center;
+  cursor: not-allowed;
 }
 
 .links__link__icon {
@@ -703,7 +709,7 @@ footer {
   border: none;
   font-size: 16px;
   color: white;
-  width: 100%; 
+  width: 100%;
 }
 
 .copyright__form__button {
@@ -714,8 +720,10 @@ footer {
   background: #ffffff11;
   border: none;
   border-radius: 8px;
-  width: 100%; 
+  width: 100%;
+  cursor: not-allowed;
 }
+
 
 .copyright__text {
   color: #e5e6e6;
@@ -755,8 +763,8 @@ footer {
   .summary__para {
     font-size: 15px;
   }
-  
-  .testimonials__list{
+
+  .testimonials__list {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -782,33 +790,33 @@ footer {
     margin-bottom: 20px;
   }
 
-  .steps__list{
+  .steps__list {
     flex-direction: column;
     gap: 32px;
   }
 
-  .step-divider{
+  .step-divider {
     display: none;
   }
 
-  .step__number{
+  .step__number {
     margin-bottom: 20px;
   }
 
-  .step__para{
-    max-width: 100%
+  .step__para {
+    max-width: 100%;
   }
 
-  .copyright__container{
+  .copyright__container {
     flex-direction: column;
     gap: 24px;
   }
 
-  .copyright__form{
+  .copyright__form {
     flex-direction: column;
   }
 
-  .copyright__form__input{
+  .copyright__form__input {
     text-align: center;
   }
 }
@@ -830,17 +838,17 @@ footer {
     padding: 60px 40px;
   }
 
-  .cta__title{
-    font-size: 92px
+  .cta__title {
+    font-size: 92px;
   }
 
-  .links__container{
+  .links__container {
     flex-direction: column;
     align-items: center;
-    gap: 28px
+    gap: 28px;
   }
 
-  .links__list{
+  .links__list {
     flex-wrap: wrap;
     justify-content: center;
   }
@@ -874,7 +882,7 @@ footer {
     font-size: 16px;
   }
 
-  .summary__row{
+  .summary__row {
     padding: 48px 16px;
     border-radius: 32px;
     gap: 20px;
@@ -889,7 +897,7 @@ footer {
     display: none;
   }
 
-  .summary__title{
+  .summary__title {
     margin-bottom: 12px;
     font-size: 32px;
   }
@@ -898,42 +906,42 @@ footer {
     font-size: 13px;
   }
 
-   .steps__row{
+  .steps__row {
     padding: 60px 20px;
-   }
+  }
 
   .steps__title,
-  .testimonials__title{
+  .testimonials__title {
     font-size: 40px;
     margin-bottom: 32px;
   }
 
-  .step__number{
+  .step__number {
     width: 52px;
     height: 52px;
   }
 
-  .step__para{
+  .step__para {
     font-size: 14px;
   }
 
-  .testimonials__row{
+  .testimonials__row {
     padding: 60px 20px;
   }
 
-  .cta__widget{
+  .cta__widget {
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 8px;
   }
 
-  .cta__title{
+  .cta__title {
     font-size: 56px;
     line-height: 1;
   }
-  
-  .cta__para{
+
+  .cta__para {
     padding: 0 20px;
   }
 }
